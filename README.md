@@ -21,9 +21,9 @@ Evaluate the Model
 Visualization and Analysis
 ## PROGRAM
 
-### Name:
+### Name:MUKITHA V M
 
-### Register Number:
+### Register Number:21222304119
 
 ```
 # Autoencoder for Image Denoising using PyTorch
@@ -94,8 +94,8 @@ summary(model, input_size=(1, 28, 28))
 # Train the autoencoder
 def train(model, loader, criterion, optimizer, epochs=5):
     model.train()
-    print("Name : VINISHRAJ R")
-    print("Register Number : 212223230243")
+    print("Name : mukitha v m")
+    print("Register Number : 212223040119")
     for epoch in range(epochs):
       running_loss = 0.0
       for images, _ in loader:
@@ -127,8 +127,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: VINISHRAJ R ")
-    print("Register Number: 212223230243 ")
+    print("Name: MUKITHA V M ")
+    print("Register Number: 212223040119")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
         # Original
@@ -161,12 +161,13 @@ visualize_denoising(model, test_loader)
 ### OUTPUT
 
 ### Model Summary
-Include your model summary
+<img width="811" height="461" alt="image" src="https://github.com/user-attachments/assets/df635f61-8f55-4746-b66e-d9576fbfc718" />
 
 ### Training loss
+<img width="360" height="167" alt="image" src="https://github.com/user-attachments/assets/1ac702d0-045d-484c-84f3-5d0d0ab4ef16" />
 
 ## Original vs Noisy Vs Reconstructed Image
-Include a few sample images here.
+<img width="1732" height="602" alt="image" src="https://github.com/user-attachments/assets/a1b954a4-2f67-4f62-95e5-eea1898c588e" />
 
 ## RESULT
-Include your result here
+Therefore, To develop a convolutional autoencoder for image denoising application executed successfully.
